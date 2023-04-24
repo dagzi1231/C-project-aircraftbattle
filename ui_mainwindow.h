@@ -1,0 +1,664 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 5.9.0
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QComboBox>
+#include <QtWidgets/QGridLayout>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QWidget *centralwidget;
+    QGridLayout *gridLayout_2;
+    QTabWidget *tabWidget;
+    QWidget *tab_3;
+    QLabel *label;
+    QComboBox *comboBox_choose_level;
+    QPushButton *btn_to_mainscene;
+    QLabel *label_5;
+    QComboBox *comboBox_choose_model;
+    QWidget *tab_5;
+    QLabel *label_has_reborn_coin;
+    QLabel *label_has_missle;
+    QLabel *label_has_laser;
+    QLabel *label_has_shield;
+    QLabel *label_has_screenclear;
+    QLabel *label_has_coins;
+    QLabel *label_has_missle_no;
+    QLabel *label_has_laser_no;
+    QLabel *label_has_shield_no;
+    QLabel *label_has_screenclear_no;
+    QLabel *label_skill;
+    QWidget *tab_store;
+    QPushButton *btn_skill_missle;
+    QPushButton *btn_skill_laser;
+    QPushButton *btn_skill_shield;
+    QPushButton *btn_skill_screenclear;
+    QLabel *label_value_of_coins;
+    QLabel *label_2;
+    QLabel *label_3;
+    QPushButton *btn_reborn_coin;
+    QLabel *label_4;
+    QLabel *label_14;
+    QPushButton *btn_health;
+    QPushButton *btn_speed;
+    QPushButton *btn_bulletinterval;
+    QLabel *label_total_cost;
+    QWidget *tab;
+    QGridLayout *gridLayout_3;
+    QTabWidget *tabWidget_2;
+    QWidget *tab_6;
+    QLabel *label_common_3;
+    QLabel *label_common_2;
+    QLabel *label_common_1;
+    QLabel *label_common_0;
+    QLabel *label_common_4;
+    QLabel *label_common_6;
+    QLabel *label_common_8;
+    QLabel *label_common_5;
+    QLabel *label_common_7;
+    QLabel *label_common_9;
+    QWidget *tab_7;
+    QLabel *label_endless_3;
+    QLabel *label_endless_4;
+    QLabel *label_endless_0;
+    QLabel *label_endless_1;
+    QLabel *label_endless_2;
+    QLabel *label_endless_9;
+    QLabel *label_endless_5;
+    QLabel *label_endless_6;
+    QLabel *label_endless_8;
+    QLabel *label_endless_7;
+    QWidget *tab_4;
+    QLabel *label_destorycommonenemy;
+    QLabel *label_destoryshootenemy;
+    QLabel *label_destoryspeedenemy;
+    QLabel *label_crashtime;
+    QLabel *label_beshottime;
+    QLabel *label_6;
+    QLabel *label_7;
+    QLabel *label_destoryedbycommonenemy;
+    QLabel *label_lasertime;
+    QLabel *label_destroyedbyshootenemy;
+    QLabel *label_destroyedbyspeedenemy;
+    QLabel *label_missletime;
+    QLabel *label_shieldtime;
+    QLabel *label_myplaneshoottime;
+    QLabel *label_cure;
+    QLabel *label_injury;
+    QLabel *label_destroyedbyboss;
+    QLabel *label_destoryboss;
+    QLabel *label_damageboss;
+    QLabel *label_screencleartime;
+    QLabel *label_8;
+    QLabel *label_9;
+    QLabel *label_10;
+    QLabel *label_11;
+    QLabel *label_12;
+    QLabel *label_13;
+    QLabel *label_score;
+    QMenuBar *menubar;
+    QStatusBar *statusbar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QStringLiteral("MainWindow"));
+        MainWindow->resize(1483, 1120);
+        centralwidget = new QWidget(MainWindow);
+        centralwidget->setObjectName(QStringLiteral("centralwidget"));
+        gridLayout_2 = new QGridLayout(centralwidget);
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName(QStringLiteral("tabWidget"));
+        tabWidget->setStyleSheet(QLatin1String("QTabBar::tab{width:130}\n"
+"QTabBar::tab{height:60}"));
+        tabWidget->setTabPosition(QTabWidget::West);
+        tabWidget->setTabShape(QTabWidget::Rounded);
+        tabWidget->setElideMode(Qt::ElideNone);
+        tabWidget->setUsesScrollButtons(true);
+        tabWidget->setTabsClosable(false);
+        tabWidget->setMovable(false);
+        tab_3 = new QWidget();
+        tab_3->setObjectName(QStringLiteral("tab_3"));
+        label = new QLabel(tab_3);
+        label->setObjectName(QStringLiteral("label"));
+        label->setGeometry(QRect(100, 110, 131, 61));
+        QFont font;
+        font.setFamily(QString::fromUtf8("\345\215\216\346\226\207\346\226\260\351\255\217"));
+        font.setPointSize(14);
+        label->setFont(font);
+        comboBox_choose_level = new QComboBox(tab_3);
+        comboBox_choose_level->setObjectName(QStringLiteral("comboBox_choose_level"));
+        comboBox_choose_level->setGeometry(QRect(280, 120, 161, 41));
+        QFont font1;
+        font1.setFamily(QStringLiteral("Consolas"));
+        font1.setPointSize(14);
+        comboBox_choose_level->setFont(font1);
+        btn_to_mainscene = new QPushButton(tab_3);
+        btn_to_mainscene->setObjectName(QStringLiteral("btn_to_mainscene"));
+        btn_to_mainscene->setGeometry(QRect(330, 340, 241, 51));
+        QFont font2;
+        font2.setFamily(QStringLiteral("Consolas"));
+        font2.setPointSize(16);
+        btn_to_mainscene->setFont(font2);
+        label_5 = new QLabel(tab_3);
+        label_5->setObjectName(QStringLiteral("label_5"));
+        label_5->setGeometry(QRect(100, 230, 131, 61));
+        label_5->setFont(font);
+        comboBox_choose_model = new QComboBox(tab_3);
+        comboBox_choose_model->setObjectName(QStringLiteral("comboBox_choose_model"));
+        comboBox_choose_model->setGeometry(QRect(280, 240, 161, 41));
+        comboBox_choose_model->setFont(font1);
+        tabWidget->addTab(tab_3, QString());
+        tab_5 = new QWidget();
+        tab_5->setObjectName(QStringLiteral("tab_5"));
+        label_has_reborn_coin = new QLabel(tab_5);
+        label_has_reborn_coin->setObjectName(QStringLiteral("label_has_reborn_coin"));
+        label_has_reborn_coin->setGeometry(QRect(30, 70, 311, 41));
+        QFont font3;
+        font3.setFamily(QStringLiteral("Consolas"));
+        font3.setPointSize(12);
+        label_has_reborn_coin->setFont(font3);
+        label_has_reborn_coin->setFrameShape(QFrame::Panel);
+        label_has_missle = new QLabel(tab_5);
+        label_has_missle->setObjectName(QStringLiteral("label_has_missle"));
+        label_has_missle->setGeometry(QRect(30, 250, 311, 41));
+        label_has_missle->setFont(font3);
+        label_has_missle->setFrameShape(QFrame::Panel);
+        label_has_laser = new QLabel(tab_5);
+        label_has_laser->setObjectName(QStringLiteral("label_has_laser"));
+        label_has_laser->setGeometry(QRect(30, 310, 311, 41));
+        label_has_laser->setFont(font3);
+        label_has_laser->setFrameShape(QFrame::Panel);
+        label_has_shield = new QLabel(tab_5);
+        label_has_shield->setObjectName(QStringLiteral("label_has_shield"));
+        label_has_shield->setGeometry(QRect(30, 370, 311, 41));
+        label_has_shield->setFont(font3);
+        label_has_shield->setFrameShape(QFrame::Panel);
+        label_has_screenclear = new QLabel(tab_5);
+        label_has_screenclear->setObjectName(QStringLiteral("label_has_screenclear"));
+        label_has_screenclear->setGeometry(QRect(30, 430, 311, 41));
+        label_has_screenclear->setFont(font3);
+        label_has_screenclear->setFrameShape(QFrame::Panel);
+        label_has_coins = new QLabel(tab_5);
+        label_has_coins->setObjectName(QStringLiteral("label_has_coins"));
+        label_has_coins->setGeometry(QRect(680, 50, 200, 50));
+        label_has_coins->setFont(font3);
+        label_has_coins->setFrameShape(QFrame::Panel);
+        label_has_missle_no = new QLabel(tab_5);
+        label_has_missle_no->setObjectName(QStringLiteral("label_has_missle_no"));
+        label_has_missle_no->setGeometry(QRect(370, 250, 311, 41));
+        label_has_missle_no->setFont(font3);
+        label_has_missle_no->setFrameShape(QFrame::Panel);
+        label_has_laser_no = new QLabel(tab_5);
+        label_has_laser_no->setObjectName(QStringLiteral("label_has_laser_no"));
+        label_has_laser_no->setGeometry(QRect(370, 310, 311, 41));
+        label_has_laser_no->setFont(font3);
+        label_has_laser_no->setFrameShape(QFrame::Panel);
+        label_has_shield_no = new QLabel(tab_5);
+        label_has_shield_no->setObjectName(QStringLiteral("label_has_shield_no"));
+        label_has_shield_no->setGeometry(QRect(370, 370, 311, 41));
+        label_has_shield_no->setFont(font3);
+        label_has_shield_no->setFrameShape(QFrame::Panel);
+        label_has_screenclear_no = new QLabel(tab_5);
+        label_has_screenclear_no->setObjectName(QStringLiteral("label_has_screenclear_no"));
+        label_has_screenclear_no->setGeometry(QRect(370, 430, 311, 41));
+        label_has_screenclear_no->setFont(font3);
+        label_has_screenclear_no->setFrameShape(QFrame::Panel);
+        label_skill = new QLabel(tab_5);
+        label_skill->setObjectName(QStringLiteral("label_skill"));
+        label_skill->setGeometry(QRect(30, 170, 311, 41));
+        label_skill->setFont(font3);
+        label_skill->setFrameShape(QFrame::Box);
+        label_skill->setFrameShadow(QFrame::Sunken);
+        tabWidget->addTab(tab_5, QString());
+        tab_store = new QWidget();
+        tab_store->setObjectName(QStringLiteral("tab_store"));
+        btn_skill_missle = new QPushButton(tab_store);
+        btn_skill_missle->setObjectName(QStringLiteral("btn_skill_missle"));
+        btn_skill_missle->setGeometry(QRect(10, 210, 181, 61));
+        btn_skill_laser = new QPushButton(tab_store);
+        btn_skill_laser->setObjectName(QStringLiteral("btn_skill_laser"));
+        btn_skill_laser->setGeometry(QRect(210, 210, 181, 61));
+        btn_skill_shield = new QPushButton(tab_store);
+        btn_skill_shield->setObjectName(QStringLiteral("btn_skill_shield"));
+        btn_skill_shield->setGeometry(QRect(10, 400, 181, 61));
+        btn_skill_screenclear = new QPushButton(tab_store);
+        btn_skill_screenclear->setObjectName(QStringLiteral("btn_skill_screenclear"));
+        btn_skill_screenclear->setGeometry(QRect(210, 400, 181, 61));
+        label_value_of_coins = new QLabel(tab_store);
+        label_value_of_coins->setObjectName(QStringLiteral("label_value_of_coins"));
+        label_value_of_coins->setGeometry(QRect(680, 50, 200, 50));
+        label_value_of_coins->setFont(font3);
+        label_value_of_coins->setFrameShape(QFrame::Panel);
+        label_value_of_coins->setFrameShadow(QFrame::Plain);
+        label_2 = new QLabel(tab_store);
+        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setGeometry(QRect(10, 120, 281, 41));
+        label_2->setFont(font1);
+        label_3 = new QLabel(tab_store);
+        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setGeometry(QRect(10, 320, 171, 51));
+        label_3->setFont(font1);
+        btn_reborn_coin = new QPushButton(tab_store);
+        btn_reborn_coin->setObjectName(QStringLiteral("btn_reborn_coin"));
+        btn_reborn_coin->setGeometry(QRect(510, 210, 181, 61));
+        label_4 = new QLabel(tab_store);
+        label_4->setObjectName(QStringLiteral("label_4"));
+        label_4->setGeometry(QRect(510, 120, 281, 41));
+        label_4->setFont(font1);
+        label_14 = new QLabel(tab_store);
+        label_14->setObjectName(QStringLiteral("label_14"));
+        label_14->setGeometry(QRect(510, 320, 281, 41));
+        label_14->setFont(font1);
+        btn_health = new QPushButton(tab_store);
+        btn_health->setObjectName(QStringLiteral("btn_health"));
+        btn_health->setGeometry(QRect(510, 400, 281, 41));
+        btn_speed = new QPushButton(tab_store);
+        btn_speed->setObjectName(QStringLiteral("btn_speed"));
+        btn_speed->setGeometry(QRect(510, 450, 281, 41));
+        btn_bulletinterval = new QPushButton(tab_store);
+        btn_bulletinterval->setObjectName(QStringLiteral("btn_bulletinterval"));
+        btn_bulletinterval->setGeometry(QRect(510, 500, 281, 41));
+        label_total_cost = new QLabel(tab_store);
+        label_total_cost->setObjectName(QStringLiteral("label_total_cost"));
+        label_total_cost->setGeometry(QRect(50, 600, 180, 90));
+        label_total_cost->setFont(font1);
+        label_total_cost->setFrameShape(QFrame::Panel);
+        tabWidget->addTab(tab_store, QString());
+        tab = new QWidget();
+        tab->setObjectName(QStringLiteral("tab"));
+        gridLayout_3 = new QGridLayout(tab);
+        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
+        tabWidget_2 = new QTabWidget(tab);
+        tabWidget_2->setObjectName(QStringLiteral("tabWidget_2"));
+        tab_6 = new QWidget();
+        tab_6->setObjectName(QStringLiteral("tab_6"));
+        label_common_3 = new QLabel(tab_6);
+        label_common_3->setObjectName(QStringLiteral("label_common_3"));
+        label_common_3->setGeometry(QRect(90, 190, 591, 41));
+        label_common_3->setFont(font3);
+        label_common_3->setFrameShape(QFrame::Panel);
+        label_common_2 = new QLabel(tab_6);
+        label_common_2->setObjectName(QStringLiteral("label_common_2"));
+        label_common_2->setGeometry(QRect(90, 140, 591, 41));
+        label_common_2->setFont(font3);
+        label_common_2->setFrameShape(QFrame::Panel);
+        label_common_1 = new QLabel(tab_6);
+        label_common_1->setObjectName(QStringLiteral("label_common_1"));
+        label_common_1->setGeometry(QRect(90, 90, 591, 41));
+        label_common_1->setFont(font3);
+        label_common_1->setFrameShape(QFrame::Panel);
+        label_common_0 = new QLabel(tab_6);
+        label_common_0->setObjectName(QStringLiteral("label_common_0"));
+        label_common_0->setGeometry(QRect(90, 40, 591, 41));
+        label_common_0->setFont(font3);
+        label_common_0->setFrameShape(QFrame::Panel);
+        label_common_4 = new QLabel(tab_6);
+        label_common_4->setObjectName(QStringLiteral("label_common_4"));
+        label_common_4->setGeometry(QRect(90, 240, 591, 41));
+        label_common_4->setFont(font3);
+        label_common_4->setFrameShape(QFrame::Panel);
+        label_common_6 = new QLabel(tab_6);
+        label_common_6->setObjectName(QStringLiteral("label_common_6"));
+        label_common_6->setGeometry(QRect(90, 340, 591, 41));
+        label_common_6->setFont(font3);
+        label_common_6->setFrameShape(QFrame::Panel);
+        label_common_8 = new QLabel(tab_6);
+        label_common_8->setObjectName(QStringLiteral("label_common_8"));
+        label_common_8->setGeometry(QRect(90, 440, 591, 41));
+        label_common_8->setFont(font3);
+        label_common_8->setFrameShape(QFrame::Panel);
+        label_common_5 = new QLabel(tab_6);
+        label_common_5->setObjectName(QStringLiteral("label_common_5"));
+        label_common_5->setGeometry(QRect(90, 290, 591, 41));
+        label_common_5->setFont(font3);
+        label_common_5->setFrameShape(QFrame::Panel);
+        label_common_7 = new QLabel(tab_6);
+        label_common_7->setObjectName(QStringLiteral("label_common_7"));
+        label_common_7->setGeometry(QRect(90, 390, 591, 41));
+        label_common_7->setFont(font3);
+        label_common_7->setFrameShape(QFrame::Panel);
+        label_common_9 = new QLabel(tab_6);
+        label_common_9->setObjectName(QStringLiteral("label_common_9"));
+        label_common_9->setGeometry(QRect(90, 490, 591, 41));
+        label_common_9->setFont(font3);
+        label_common_9->setFrameShape(QFrame::Panel);
+        tabWidget_2->addTab(tab_6, QString());
+        tab_7 = new QWidget();
+        tab_7->setObjectName(QStringLiteral("tab_7"));
+        label_endless_3 = new QLabel(tab_7);
+        label_endless_3->setObjectName(QStringLiteral("label_endless_3"));
+        label_endless_3->setGeometry(QRect(90, 190, 591, 41));
+        label_endless_3->setFont(font3);
+        label_endless_3->setFrameShape(QFrame::Panel);
+        label_endless_4 = new QLabel(tab_7);
+        label_endless_4->setObjectName(QStringLiteral("label_endless_4"));
+        label_endless_4->setGeometry(QRect(90, 240, 591, 41));
+        label_endless_4->setFont(font3);
+        label_endless_4->setFrameShape(QFrame::Panel);
+        label_endless_0 = new QLabel(tab_7);
+        label_endless_0->setObjectName(QStringLiteral("label_endless_0"));
+        label_endless_0->setGeometry(QRect(90, 40, 591, 41));
+        label_endless_0->setFont(font3);
+        label_endless_0->setFrameShape(QFrame::Panel);
+        label_endless_1 = new QLabel(tab_7);
+        label_endless_1->setObjectName(QStringLiteral("label_endless_1"));
+        label_endless_1->setGeometry(QRect(90, 90, 591, 41));
+        label_endless_1->setFont(font3);
+        label_endless_1->setFrameShape(QFrame::Panel);
+        label_endless_2 = new QLabel(tab_7);
+        label_endless_2->setObjectName(QStringLiteral("label_endless_2"));
+        label_endless_2->setGeometry(QRect(90, 140, 591, 41));
+        label_endless_2->setFont(font3);
+        label_endless_2->setFrameShape(QFrame::Panel);
+        label_endless_9 = new QLabel(tab_7);
+        label_endless_9->setObjectName(QStringLiteral("label_endless_9"));
+        label_endless_9->setGeometry(QRect(90, 490, 591, 41));
+        label_endless_9->setFont(font3);
+        label_endless_9->setFrameShape(QFrame::Panel);
+        label_endless_5 = new QLabel(tab_7);
+        label_endless_5->setObjectName(QStringLiteral("label_endless_5"));
+        label_endless_5->setGeometry(QRect(90, 290, 591, 41));
+        label_endless_5->setFont(font3);
+        label_endless_5->setFrameShape(QFrame::Panel);
+        label_endless_6 = new QLabel(tab_7);
+        label_endless_6->setObjectName(QStringLiteral("label_endless_6"));
+        label_endless_6->setGeometry(QRect(90, 340, 591, 41));
+        label_endless_6->setFont(font3);
+        label_endless_6->setFrameShape(QFrame::Panel);
+        label_endless_8 = new QLabel(tab_7);
+        label_endless_8->setObjectName(QStringLiteral("label_endless_8"));
+        label_endless_8->setGeometry(QRect(90, 440, 591, 41));
+        label_endless_8->setFont(font3);
+        label_endless_8->setFrameShape(QFrame::Panel);
+        label_endless_7 = new QLabel(tab_7);
+        label_endless_7->setObjectName(QStringLiteral("label_endless_7"));
+        label_endless_7->setGeometry(QRect(90, 390, 591, 41));
+        label_endless_7->setFont(font3);
+        label_endless_7->setFrameShape(QFrame::Panel);
+        tabWidget_2->addTab(tab_7, QString());
+
+        gridLayout_3->addWidget(tabWidget_2, 0, 0, 1, 1);
+
+        tabWidget->addTab(tab, QString());
+        tab_4 = new QWidget();
+        tab_4->setObjectName(QStringLiteral("tab_4"));
+        label_destorycommonenemy = new QLabel(tab_4);
+        label_destorycommonenemy->setObjectName(QStringLiteral("label_destorycommonenemy"));
+        label_destorycommonenemy->setGeometry(QRect(20, 110, 231, 36));
+        label_destorycommonenemy->setFont(font3);
+        label_destorycommonenemy->setFrameShape(QFrame::Panel);
+        label_destoryshootenemy = new QLabel(tab_4);
+        label_destoryshootenemy->setObjectName(QStringLiteral("label_destoryshootenemy"));
+        label_destoryshootenemy->setGeometry(QRect(20, 150, 231, 36));
+        label_destoryshootenemy->setFont(font3);
+        label_destoryshootenemy->setFrameShape(QFrame::Panel);
+        label_destoryspeedenemy = new QLabel(tab_4);
+        label_destoryspeedenemy->setObjectName(QStringLiteral("label_destoryspeedenemy"));
+        label_destoryspeedenemy->setGeometry(QRect(20, 190, 231, 36));
+        label_destoryspeedenemy->setFont(font3);
+        label_destoryspeedenemy->setFrameShape(QFrame::Panel);
+        label_crashtime = new QLabel(tab_4);
+        label_crashtime->setObjectName(QStringLiteral("label_crashtime"));
+        label_crashtime->setGeometry(QRect(410, 40, 241, 36));
+        label_crashtime->setFont(font3);
+        label_crashtime->setFrameShape(QFrame::Panel);
+        label_beshottime = new QLabel(tab_4);
+        label_beshottime->setObjectName(QStringLiteral("label_beshottime"));
+        label_beshottime->setGeometry(QRect(410, 90, 241, 36));
+        label_beshottime->setFont(font3);
+        label_beshottime->setFrameShape(QFrame::Panel);
+        label_6 = new QLabel(tab_4);
+        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setGeometry(QRect(30, 90, 101, 16));
+        label_7 = new QLabel(tab_4);
+        label_7->setObjectName(QStringLiteral("label_7"));
+        label_7->setGeometry(QRect(10, 90, 251, 141));
+        label_7->setFrameShape(QFrame::Panel);
+        label_destoryedbycommonenemy = new QLabel(tab_4);
+        label_destoryedbycommonenemy->setObjectName(QStringLiteral("label_destoryedbycommonenemy"));
+        label_destoryedbycommonenemy->setGeometry(QRect(20, 310, 231, 36));
+        label_destoryedbycommonenemy->setFont(font3);
+        label_destoryedbycommonenemy->setFrameShape(QFrame::Panel);
+        label_lasertime = new QLabel(tab_4);
+        label_lasertime->setObjectName(QStringLiteral("label_lasertime"));
+        label_lasertime->setGeometry(QRect(410, 250, 241, 36));
+        label_lasertime->setFont(font3);
+        label_lasertime->setFrameShape(QFrame::Panel);
+        label_destroyedbyshootenemy = new QLabel(tab_4);
+        label_destroyedbyshootenemy->setObjectName(QStringLiteral("label_destroyedbyshootenemy"));
+        label_destroyedbyshootenemy->setGeometry(QRect(20, 350, 231, 36));
+        label_destroyedbyshootenemy->setFont(font3);
+        label_destroyedbyshootenemy->setFrameShape(QFrame::Panel);
+        label_destroyedbyspeedenemy = new QLabel(tab_4);
+        label_destroyedbyspeedenemy->setObjectName(QStringLiteral("label_destroyedbyspeedenemy"));
+        label_destroyedbyspeedenemy->setGeometry(QRect(20, 390, 231, 36));
+        label_destroyedbyspeedenemy->setFont(font3);
+        label_destroyedbyspeedenemy->setFrameShape(QFrame::Panel);
+        label_missletime = new QLabel(tab_4);
+        label_missletime->setObjectName(QStringLiteral("label_missletime"));
+        label_missletime->setGeometry(QRect(410, 300, 241, 36));
+        label_missletime->setFont(font3);
+        label_missletime->setFrameShape(QFrame::Panel);
+        label_shieldtime = new QLabel(tab_4);
+        label_shieldtime->setObjectName(QStringLiteral("label_shieldtime"));
+        label_shieldtime->setGeometry(QRect(410, 350, 241, 36));
+        label_shieldtime->setFont(font3);
+        label_shieldtime->setFrameShape(QFrame::Panel);
+        label_myplaneshoottime = new QLabel(tab_4);
+        label_myplaneshoottime->setObjectName(QStringLiteral("label_myplaneshoottime"));
+        label_myplaneshoottime->setGeometry(QRect(20, 480, 241, 36));
+        label_myplaneshoottime->setFont(font3);
+        label_myplaneshoottime->setFrameShape(QFrame::Panel);
+        label_cure = new QLabel(tab_4);
+        label_cure->setObjectName(QStringLiteral("label_cure"));
+        label_cure->setGeometry(QRect(20, 580, 241, 36));
+        label_cure->setFont(font3);
+        label_cure->setFrameShape(QFrame::Panel);
+        label_injury = new QLabel(tab_4);
+        label_injury->setObjectName(QStringLiteral("label_injury"));
+        label_injury->setGeometry(QRect(20, 530, 241, 36));
+        label_injury->setFont(font3);
+        label_injury->setFrameShape(QFrame::Panel);
+        label_destroyedbyboss = new QLabel(tab_4);
+        label_destroyedbyboss->setObjectName(QStringLiteral("label_destroyedbyboss"));
+        label_destroyedbyboss->setGeometry(QRect(410, 560, 241, 36));
+        label_destroyedbyboss->setFont(font3);
+        label_destroyedbyboss->setFrameShape(QFrame::Panel);
+        label_destoryboss = new QLabel(tab_4);
+        label_destoryboss->setObjectName(QStringLiteral("label_destoryboss"));
+        label_destoryboss->setGeometry(QRect(410, 520, 241, 36));
+        label_destoryboss->setFont(font3);
+        label_destoryboss->setFrameShape(QFrame::Panel);
+        label_damageboss = new QLabel(tab_4);
+        label_damageboss->setObjectName(QStringLiteral("label_damageboss"));
+        label_damageboss->setGeometry(QRect(410, 480, 241, 36));
+        label_damageboss->setFont(font3);
+        label_damageboss->setFrameShape(QFrame::Panel);
+        label_screencleartime = new QLabel(tab_4);
+        label_screencleartime->setObjectName(QStringLiteral("label_screencleartime"));
+        label_screencleartime->setGeometry(QRect(410, 200, 241, 36));
+        label_screencleartime->setFont(font3);
+        label_screencleartime->setFrameShape(QFrame::Panel);
+        label_8 = new QLabel(tab_4);
+        label_8->setObjectName(QStringLiteral("label_8"));
+        label_8->setGeometry(QRect(20, 290, 131, 21));
+        label_9 = new QLabel(tab_4);
+        label_9->setObjectName(QStringLiteral("label_9"));
+        label_9->setGeometry(QRect(10, 290, 251, 141));
+        label_9->setFrameShape(QFrame::Panel);
+        label_10 = new QLabel(tab_4);
+        label_10->setObjectName(QStringLiteral("label_10"));
+        label_10->setGeometry(QRect(410, 450, 71, 21));
+        QFont font4;
+        font4.setFamily(QStringLiteral("Consolas"));
+        label_10->setFont(font4);
+        label_11 = new QLabel(tab_4);
+        label_11->setObjectName(QStringLiteral("label_11"));
+        label_11->setGeometry(QRect(400, 450, 261, 151));
+        label_11->setFrameShape(QFrame::Panel);
+        label_12 = new QLabel(tab_4);
+        label_12->setObjectName(QStringLiteral("label_12"));
+        label_12->setGeometry(QRect(410, 180, 61, 21));
+        label_13 = new QLabel(tab_4);
+        label_13->setObjectName(QStringLiteral("label_13"));
+        label_13->setGeometry(QRect(400, 180, 261, 211));
+        label_13->setFrameShape(QFrame::Panel);
+        label_score = new QLabel(tab_4);
+        label_score->setObjectName(QStringLiteral("label_score"));
+        label_score->setGeometry(QRect(10, 20, 251, 36));
+        label_score->setFont(font3);
+        label_score->setFrameShape(QFrame::Panel);
+        tabWidget->addTab(tab_4, QString());
+
+        gridLayout_2->addWidget(tabWidget, 1, 0, 1, 1);
+
+        MainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindow);
+        menubar->setObjectName(QStringLiteral("menubar"));
+        menubar->setGeometry(QRect(0, 0, 1483, 23));
+        MainWindow->setMenuBar(menubar);
+        statusbar = new QStatusBar(MainWindow);
+        statusbar->setObjectName(QStringLiteral("statusbar"));
+        MainWindow->setStatusBar(statusbar);
+
+        retranslateUi(MainWindow);
+
+        tabWidget->setCurrentIndex(2);
+        tabWidget_2->setCurrentIndex(0);
+
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
+        label->setText(QApplication::translate("MainWindow", "\351\200\211\346\213\251\351\232\276\345\272\246", Q_NULLPTR));
+        comboBox_choose_level->clear();
+        comboBox_choose_level->insertItems(0, QStringList()
+         << QApplication::translate("MainWindow", "easy", Q_NULLPTR)
+         << QApplication::translate("MainWindow", "normal", Q_NULLPTR)
+         << QApplication::translate("MainWindow", "hard", Q_NULLPTR)
+         << QApplication::translate("MainWindow", "lunatic", Q_NULLPTR)
+        );
+        btn_to_mainscene->setText(QApplication::translate("MainWindow", "\345\274\200\345\247\213\346\270\270\346\210\217", Q_NULLPTR));
+        label_5->setText(QApplication::translate("MainWindow", "\351\200\211\346\213\251\346\250\241\345\274\217", Q_NULLPTR));
+        comboBox_choose_model->clear();
+        comboBox_choose_model->insertItems(0, QStringList()
+         << QApplication::translate("MainWindow", "\346\231\256\351\200\232\346\250\241\345\274\217", Q_NULLPTR)
+         << QApplication::translate("MainWindow", "\346\227\240\345\260\275\346\250\241\345\274\217", Q_NULLPTR)
+        );
+        tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("MainWindow", "play game", Q_NULLPTR));
+        label_has_reborn_coin->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_has_missle->setText(QApplication::translate("MainWindow", "\345\257\274\345\274\271(\345\267\262\346\213\245\346\234\211)", Q_NULLPTR));
+        label_has_laser->setText(QApplication::translate("MainWindow", "\346\277\200\345\205\211(\345\267\262\346\213\245\346\234\211)", Q_NULLPTR));
+        label_has_shield->setText(QApplication::translate("MainWindow", "\346\212\244\347\233\276(\345\267\262\346\213\245\346\234\211)", Q_NULLPTR));
+        label_has_screenclear->setText(QApplication::translate("MainWindow", "\346\270\205\345\261\217(\345\267\262\346\213\245\346\234\211)", Q_NULLPTR));
+        label_has_coins->setText(QApplication::translate("MainWindow", "label_has_coins", Q_NULLPTR));
+        label_has_missle_no->setText(QApplication::translate("MainWindow", "\345\257\274\345\274\271(\346\234\252\346\213\245\346\234\211)", Q_NULLPTR));
+        label_has_laser_no->setText(QApplication::translate("MainWindow", "\346\277\200\345\205\211(\346\234\252\346\213\245\346\234\211)", Q_NULLPTR));
+        label_has_shield_no->setText(QApplication::translate("MainWindow", "\346\212\244\347\233\276(\346\234\252\346\213\245\346\234\211)", Q_NULLPTR));
+        label_has_screenclear_no->setText(QApplication::translate("MainWindow", "\346\270\205\345\261\217(\346\234\252\346\213\245\346\234\211)", Q_NULLPTR));
+        label_skill->setText(QApplication::translate("MainWindow", "\346\212\200\350\203\275\346\213\245\346\234\211\346\203\205\345\206\265:", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_5), QApplication::translate("MainWindow", "\344\273\223\345\272\223", Q_NULLPTR));
+        btn_skill_missle->setText(QApplication::translate("MainWindow", "\345\257\274\345\274\271", Q_NULLPTR));
+        btn_skill_laser->setText(QApplication::translate("MainWindow", "\346\277\200\345\205\211", Q_NULLPTR));
+        btn_skill_shield->setText(QApplication::translate("MainWindow", "\346\212\244\347\233\276", Q_NULLPTR));
+        btn_skill_screenclear->setText(QApplication::translate("MainWindow", "\346\270\205\345\261\217", Q_NULLPTR));
+        label_value_of_coins->setText(QApplication::translate("MainWindow", "TextLabel", Q_NULLPTR));
+        label_2->setText(QApplication::translate("MainWindow", "\350\264\255\344\271\260\345\260\217\346\212\200\350\203\275", Q_NULLPTR));
+        label_3->setText(QApplication::translate("MainWindow", "\350\264\255\344\271\260\345\244\247\346\213\233", Q_NULLPTR));
+        btn_reborn_coin->setText(QApplication::translate("MainWindow", "\350\264\255\344\271\260\345\244\215\346\264\273\345\270\201", Q_NULLPTR));
+        label_4->setText(QApplication::translate("MainWindow", "\350\264\255\344\271\260\345\244\215\346\264\273\345\270\201", Q_NULLPTR));
+        label_14->setText(QApplication::translate("MainWindow", "\350\264\255\344\271\260\345\261\236\346\200\247", Q_NULLPTR));
+        btn_health->setText(QApplication::translate("MainWindow", "\347\224\237\345\221\275\345\200\274", Q_NULLPTR));
+        btn_speed->setText(QApplication::translate("MainWindow", "\351\200\237\345\272\246", Q_NULLPTR));
+        btn_bulletinterval->setText(QApplication::translate("MainWindow", "\345\260\204\351\200\237", Q_NULLPTR));
+        label_total_cost->setText(QApplication::translate("MainWindow", "label_total_cost", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_store), QApplication::translate("MainWindow", "\345\225\206\345\272\227", Q_NULLPTR));
+        label_common_3->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_2->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_1->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_0->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_4->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_6->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_8->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_5->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_7->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_common_9->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_6), QApplication::translate("MainWindow", "\346\231\256\351\200\232\346\250\241\345\274\217", Q_NULLPTR));
+        label_endless_3->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_4->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_0->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_1->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_2->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_9->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_5->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_6->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_8->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        label_endless_7->setText(QApplication::translate("MainWindow", "label_has_reborn_coin", Q_NULLPTR));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_7), QApplication::translate("MainWindow", "\346\227\240\345\260\275\346\250\241\345\274\217", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "\346\216\222\350\241\214\346\246\234", Q_NULLPTR));
+        label_destorycommonenemy->setText(QApplication::translate("MainWindow", "label_destorycommonenemy", Q_NULLPTR));
+        label_destoryshootenemy->setText(QApplication::translate("MainWindow", "label_destoryshootenemy", Q_NULLPTR));
+        label_destoryspeedenemy->setText(QApplication::translate("MainWindow", "label_destoryspeedenemy", Q_NULLPTR));
+        label_crashtime->setText(QApplication::translate("MainWindow", "label_crashtime", Q_NULLPTR));
+        label_beshottime->setText(QApplication::translate("MainWindow", "label_beshottime", Q_NULLPTR));
+        label_6->setText(QApplication::translate("MainWindow", "\345\207\273\346\257\201\346\225\214\346\234\272\346\225\260", Q_NULLPTR));
+        label_7->setText(QString());
+        label_destoryedbycommonenemy->setText(QApplication::translate("MainWindow", "label_destoryedbycommonenemy", Q_NULLPTR));
+        label_lasertime->setText(QApplication::translate("MainWindow", "label_lasertime", Q_NULLPTR));
+        label_destroyedbyshootenemy->setText(QApplication::translate("MainWindow", "label_destroyedbyshootenemy", Q_NULLPTR));
+        label_destroyedbyspeedenemy->setText(QApplication::translate("MainWindow", "label_destroyedbyspeedenemy", Q_NULLPTR));
+        label_missletime->setText(QApplication::translate("MainWindow", "label_missletime", Q_NULLPTR));
+        label_shieldtime->setText(QApplication::translate("MainWindow", "label_shieldtime", Q_NULLPTR));
+        label_myplaneshoottime->setText(QApplication::translate("MainWindow", "label_myplaneshoottime", Q_NULLPTR));
+        label_cure->setText(QApplication::translate("MainWindow", "label_cure", Q_NULLPTR));
+        label_injury->setText(QApplication::translate("MainWindow", "label_injury", Q_NULLPTR));
+        label_destroyedbyboss->setText(QApplication::translate("MainWindow", "label_destroyedbyboss", Q_NULLPTR));
+        label_destoryboss->setText(QApplication::translate("MainWindow", "label_destoryboss", Q_NULLPTR));
+        label_damageboss->setText(QApplication::translate("MainWindow", "label_damageboss", Q_NULLPTR));
+        label_screencleartime->setText(QApplication::translate("MainWindow", "label_screencleartime", Q_NULLPTR));
+        label_8->setText(QApplication::translate("MainWindow", "\344\270\273\346\234\272\350\242\253\345\207\273\346\257\201", Q_NULLPTR));
+        label_9->setText(QString());
+        label_10->setText(QApplication::translate("MainWindow", "BOSS", Q_NULLPTR));
+        label_11->setText(QString());
+        label_12->setText(QApplication::translate("MainWindow", "\346\212\200\350\203\275\344\275\277\347\224\250", Q_NULLPTR));
+        label_13->setText(QString());
+        label_score->setText(QApplication::translate("MainWindow", "label_score", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("MainWindow", "\347\224\237\346\266\257", Q_NULLPTR));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H

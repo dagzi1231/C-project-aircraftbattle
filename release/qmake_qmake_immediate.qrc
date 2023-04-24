@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="playerFile.dat">D:/cproject/qt_AircraftBattle/playerFile.dat</file>
+<file alias="commonrecord.dat">D:/cproject/qt_AircraftBattle/commonrecord.dat</file>
+<file alias="endlessrecord.dat">D:/cproject/qt_AircraftBattle/endlessrecord.dat</file>
+</qresource>
+</RCC>
