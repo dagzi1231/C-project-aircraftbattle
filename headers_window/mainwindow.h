@@ -52,10 +52,6 @@ private slots:
 
     void on_btn_to_mainscene_clicked();
 
-    void on_btn_skill_screenclear_clicked();
-
-    void on_btn_skill_missle_clicked(bool checked);
-
 private:
     int cost_of_reborn;
     int cost_of_missle;

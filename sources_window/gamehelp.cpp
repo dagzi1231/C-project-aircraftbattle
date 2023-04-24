@@ -1,4 +1,4 @@
-﻿#include "headers_window/gamehelp.h"
+#include "headers_window/gamehelp.h"
 
 
 GameHelp::GameHelp(QWidget *parent) : QWidget(parent)
@@ -74,15 +74,15 @@ GameHelp::GameHelp(QWidget *parent) : QWidget(parent)
         neirong3->setGeometry(QRect(130, 220, 360, 100));
         neirong4->setGeometry(QRect(130, 290, 360, 100));
         CYbiaoti->setGeometry(QRect(100, 500, 100, 18));
-//        CYbiaoti->setText("小组成员：");
-//        CYneirong->setGeometry(QRect(175, 458, 360, 100));
-//        CYneirong->setText("金智勇，宁慧霖，邓又铭");
-//        KYbiaoti->setGeometry(QRect(100, 540, 100, 18));
-//        KYbiaoti->setStyleSheet("color:#FF9900;");
-//        KYbiaoti->setText("开源代码：");
-//        lianjie->setGeometry(QRect(175, 500, 360, 100));
-//        lianjie->setOpenExternalLinks(true);
-//        lianjie->setText("<style> a {text-decoration: none} </style><a style='color: blue;' href=\"https://github.com/Fennel1/qt_AircraftBattle\">Github");
+        CYbiaoti->setText("小组成员：");
+        CYneirong->setGeometry(QRect(175, 458, 360, 100));
+        CYneirong->setText("金智勇，宁慧霖，邓又铭");
+        KYbiaoti->setGeometry(QRect(100, 540, 100, 18));
+        KYbiaoti->setStyleSheet("color:#FF9900;");
+        KYbiaoti->setText("开源代码：");
+        lianjie->setGeometry(QRect(175, 500, 360, 100));
+        lianjie->setOpenExternalLinks(true);
+        lianjie->setText("<style> a {text-decoration: none} </style><a style='color: blue;' href=\"https://github.com/Fennel1/qt_AircraftBattle\">Github");
 
 }
 

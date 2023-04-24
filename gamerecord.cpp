@@ -1,4 +1,4 @@
-﻿#include "gamerecord.h"
+#include "gamerecord.h"
 
 Gamerecord::Gamerecord() {}
 CommonRecord::CommonRecord() {}

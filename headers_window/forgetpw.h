@@ -1,4 +1,4 @@
-﻿#ifndef FORGETPW_H
+#ifndef FORGETPW_H
 #define FORGETPW_H
 
 
@@ -13,7 +13,7 @@
 #include "mainwindow.h"
 #include "player.h"
 #include <QMessageBox>
-//F:\githubcode\C++project\qt_AircraftBattle-master\commonrecord.dat
+
 class ForgetPW : public QWidget
 {
     Q_OBJECT

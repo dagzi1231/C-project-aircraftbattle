@@ -37,9 +37,11 @@
 #define COIN_ANIMAPATH ":/images/coin_%1.png"    //金币掉落物动态资源
 #define COIN_PATH ":/images/coin_1.png"   //金币掉落物静态资源
 #define PAUSE_PATH ":/images/pause.png"     //暂停图标资源
-#define PLAYERFILE_PATH "D:\\cproject\\qt_AircraftBattle\\playerFile.dat"  //玩家数据文件
-#define COMMONRECORDFILE_PATH "D:\\cproject\\qt_AircraftBattle\\commonrecord.dat"  //玩家数据文件
-#define ENDLESSRECORDFILE_PATH "D:\\cproject\\qt_AircraftBattle\\endlessrecord.dat"  //玩家数据文件
+#define PLAYERFILE_PATH "D:\\cproject\\C-project-aircraftbattle\\playerFile.dat"  //玩家数据文件
+#define COMMONRECORDFILE_PATH "D:\\cproject\\C-project-aircraftbattle\\commonrecord.dat"  //玩家数据文件
+#define ENDLESSRECORDFILE_PATH "D:\\cproject\\C-project-aircraftbattle\\endlessrecord.dat"  //玩家数据文件
+
+//F:\\githubcode\\C++project\\qt_AircraftBattle-master\\playerFile.dat
 
 #define BOSS_PATH ":/images/boss.png"   //boss资源图片
 

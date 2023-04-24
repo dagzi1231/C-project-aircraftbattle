@@ -871,8 +871,3 @@ void MainWindow::update_playerfile()
     }
     playerFile.close();
 }
-
-void MainWindow::on_btn_skill_screenclear_clicked()
-{
-
-}
