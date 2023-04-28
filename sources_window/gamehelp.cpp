@@ -1,4 +1,4 @@
-#include "headers_window/gamehelp.h"
+﻿#include "headers_window/gamehelp.h"
 
 
 GameHelp::GameHelp(QWidget *parent) : QWidget(parent)
